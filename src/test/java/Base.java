@@ -1,10 +1,12 @@
+package setup;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 public class Base {
-    WebDriver driver;
+    public WebDriver driver;
     @BeforeSuite
     public void setup() throws InterruptedException {
         String URL = "https://opensource-demo.orangehrmlive.com/";
