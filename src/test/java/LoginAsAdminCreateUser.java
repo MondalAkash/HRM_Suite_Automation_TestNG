@@ -1,4 +1,3 @@
-package TestCases;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -8,7 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import setup.Base;
+
 
 import java.io.FileReader;
 import java.io.FileWriter;
