@@ -15,8 +15,17 @@
 ## How to run this project
 - Clone this repository
 - Open Terminal
-- Give the following command to run Smoke Test Suite: gradle clean test -Pfilesuite="SmokeMasterSuite.xml"
-- Give the following command to run Regression Test Suite: gradle clean test -Pfilesuite="RegressionMasterSuite.xml"
-- To generate Allure Report use these commands: allure generate allure-results --clean -output & allure serve allure-results
-
+- Give the following command to run Smoke Test Suite:
+  ```bash
+  gradle clean test -Pfilesuite="SmokeMasterSuite.xml"
+  ```
+- Give the following command to run the Regression Test Suite:
+  ```bash
+  gradle clean test -Pfilesuite="RegressionMasterSuite.xml"
+  ```
+- To generate Allure Report use these commands:
+  ```bash
+  allure generate allure-results --clean -output
+  allure serve allure-results
+  ```
 
